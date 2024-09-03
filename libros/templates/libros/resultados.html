@@ -1,0 +1,16 @@
+{% extends 'libros/base.html' %}
+
+{% block title %}Resultados{% endblock %}
+
+{% block content %}
+    <h2>Resultados de la búsqueda</h2>
+    {% if resultados %}
+        <ul>
+            {% for libro in resultados %}
+                <li>{{ libro.titulo }} - {{ libro.autor }}</li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No se encontraron resultados</p>
+    {% endif %}
+{% endblock %}
