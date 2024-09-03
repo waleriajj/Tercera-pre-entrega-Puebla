@@ -10,4 +10,4 @@ Este proyecto es una aplicación web desarrollada en Django como parte de la ter
 - **GitHub**: Proyecto vinculado y subido a un repositorio en GitHub.
 
 
-Se deberia acceder a la aplicación en `http://127.0.0.1:8000/libros/`. Sin embargo, obtengo errores... los puedo corregir con más tiempo :'( los siento. 
+Se deberia acceder a la aplicación en `http://127.0.0.1:8000/libros/`. Sin embargo, obtengo errores... los puedo corregir con más tiempo :'(. 
